@@ -12,6 +12,7 @@ function theBeatlesPlay(musicians, instruments)
 function johnLennonFacts(facts)
 {
   let counter = 0;
+<<<<<<< HEAD
   while(facts[counter] !== undefined)
   {
     facts[counter] = facts[counter] + '!!!';
@@ -31,3 +32,11 @@ function iLoveTheBeatles(number)
   return returnArray;
   
 }
+=======
+  while(facts[counter] !== 'undefined')
+  {
+    facts[counter] = facts[counter] + '!!!';
+  }
+  return facts;
+}
+>>>>>>> eb806e1b69526a8fd4ceb0595d1c491d56d11706
